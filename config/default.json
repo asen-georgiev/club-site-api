@@ -1,4 +1,7 @@
 {
-  "jwtPrivateKey": "",
+  "jwtPrivateKey": "secondPrivateKey",
   "db": "mongodb://localhost/club-site"
 }
+
+
+
