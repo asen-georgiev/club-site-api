@@ -1,5 +1,4 @@
 const express = require("express");
-const helmet = require("helmet");
 const users = require('../routes/users');
 const images = require('../routes/images');
 const emails = require('../routes/emails');
@@ -18,7 +17,6 @@ const timetables = require('../routes/timetables');
         app.use(express.urlencoded({extended: true}));
         app.use(express.static('public'));
         app.use(express.static('gallery'));
-        app.use(helmet());
         app.use('/api/users',users);
         app.use('/api/images',images);
         app.use('/api/auth',authentication);
