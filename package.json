@@ -1,10 +1,10 @@
 {
   "name": "club-site-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -28,5 +28,14 @@
   "devDependencies": {
     "bcrypt": "^5.0.0",
     "helmet": "^4.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asen-georgiev/club-site-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asen-georgiev/club-site-api/issues"
+  },
+  "homepage": "https://github.com/asen-georgiev/club-site-api#readme",
+  "description": ""
 }
